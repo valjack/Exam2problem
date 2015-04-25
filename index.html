@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Valerie Jackson Exam 2 Problem</title>
+    <link rel="stylesheet" type="text/css" href="Styles/Exam2problem.css" />
+    <script src="Js/Exam2problem.js"></script>
+</head>
+
+<body>
+    <section id="title">
+    <h1>Valerie Jackson Exam 2 Problem</h1>
+    <hr width="600px"; align="left">
+        
+        <select onchange="MenuChoice()" id="menu">
+            <option>Please select the list to display</option>
+            <option>Display Categories</option>
+            <option>Create Product Category</option>
+            <option>Update Product Description</option>
+            <option>Delete Product Category</option>
+            <option>Display About Me Area</option>
+        </select>
+        
+    <hr width="600px"; align="left" >
+    </section>
+    
+    <section id="section1" class="section1">
+    <h2>Display All Categories</h2>    
+    <hr width="600px"; align="left" >
+    <label>Display Category List</label>
+    <br>
+        
+    <button onclick="getAllCategoriesList()"id="categories">Display Category</button>
+    <hr width="600px"; align="left" >
+    <p id="categorylist">The list of categories will be displayed here.</p>
+    
+    </section> 
+    
+    <br>
+        
+    <section id="section2" class="section2">
+    <h2>Enter New Category</h2>
+    <p>The customer ID will created by the system and is an integer.</p>
+    <hr width="600px"; align="left" >
+        
+    <label>Enter New Category Name</label>
+    <input type="text" id="categorynm">
+    <br>
+    
+    <label>Enter New Category Description</label>
+    <input type="text" id="categorydesc">
+    <br>
+    
+    <button onclick="createNewCategory()"id="categories">Create New Category</button>
+    <hr width="600px"; align="left" >
+    <p id="newcategory">The operation result will be displayed here.</p>
+    </section>
+    
+    
+    <section id="section3" class="section3">
+    <h2>Enter Category ID for Product</h2>
+    <hr width="600px"; align="left" >
+        
+    <label>Enter Category ID</label>
+    <input type="number" id="categoryid">
+    <br>
+        
+    <label>Please Update Category Description</label>
+    <input type="text" id="updcategorydesc">
+        
+    <br>
+    <br>    
+    <button onclick="updateCategoryDescr()"id="description">Update Category</button>
+    <hr width="600px"; align="left" >
+    <p id="descresult">The operation result will be displayed here.</p>    
+    </section>
+
+    <section id="section4" class="section4">
+    <h2>Delete Category</h2>
+    <hr width="600px"; align="left" >
+    
+    <label>Enter Category Id to Delete Category</label>
+    <input type="number" id="categoryid">
+    <br>
+        
+    <button onclick="DeleteCategory()" id="delcategory">Delete Customer</button>
+    <hr width="600px"; align="left" >
+    <label id="delcategoryresult">The operation's result will be displayed here.</label>    
+    </section>
+    
+    <section id="section5" class="section5">
+    <h2>About Me</h2>
+    <hr width="600px"; align="left" >
+    <h3>Valerie Jackson</h3>
+    <img src="Images/purple-butterflies.jpg" id="exam2-purplepicture"> <p>I have lived in Birmingham, Alabama for the majority of my life.
+    I have no biological children, but love on other peoples' children all the time.  My interest include serving God, listening to music
+    - mostly christian, working in youth ministries at church, and creating things.
+    
+    I am enrolled in the MMIS program, but decided to pick up web and mobile applications this past spring.  I look forward to the last
+    class, even if it is not until the Fall.</p>
+    
+</section>
+
+
+</body>
+</html>

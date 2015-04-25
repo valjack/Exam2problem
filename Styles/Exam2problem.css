@@ -1,0 +1,52 @@
+Section.section1{background-color: #4466FF; padding: 5px; visibility: hidden; font-family: sans-serif;
+position: absolute; left: 5px; top: 125px; width: 600px; resize: both; }
+
+section.section1 table{font-family: sans-serif; text-align: left;}
+
+section.section1 h2{text-align: center;}
+
+section.section2{background-color: #DDCCEE; padding: 5px; visibility: hidden; font-family: sans-serif;
+position: absolute; left: 5px; top: 125px; width: 600px; resize: both;}
+
+section.section2 table{font-family: sans-serif; text-align: left;}
+
+section.section2 label{float: left; width: 275px; text-align: left; padding-right: 5px; margin-top: 5px; clear: left; }
+
+section.section2 input, textarea{margin-top: 5px;}
+
+section.section2 h2{text-align: center;}
+
+section.section3{background-color: #DDEEFF; padding: 5px; visibility: hidden; font-family: sans-serif;
+position: absolute; left: 5px; top: 125px; width: 600px; resize: both;}
+
+section.section3 label{float: left; width: 275px; text-align: left; padding-right: 5px; margin-top: 5px; clear: left; }
+
+section.section3 input, textarea{margin-top: 5px;}
+
+section.section3 h2{text-align: center;}
+
+section.section4{background-color: #DDCCEE; padding: 5px; visibility: hidden; font-family: sans-serif;
+position: absolute; left: 5px; top: 125px; width: 600px; resize: both;}
+
+section.section4 table{font-family: sans-serif; text-align: left;}
+
+section.section4 h2{text-align: center;}
+
+section.section5{background-color: #DDEEFF; padding: 5px; visibility: hidden; font-family: sans-serif;
+position: absolute; left: 5px; top: 125px; width: 600px; resize: both;}
+
+#exam2-purplepicture {padding: 5px; float: right; height: 25%; width: 25%; border: thick;}
+
+section.section5 h2{text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
